@@ -36,7 +36,7 @@ def listAllUrl(urls):
 
 
 if __name__ == "__main__":
-    urls = ['http://vaxia.loc']
+    urls = ['http://your-url-here']
     while(urls.count>0):
-        urls = getAllUrl('http://vaxia.loc')
+        urls = getAllUrl('http://your-url-here')
         listAllUrl(urls)
